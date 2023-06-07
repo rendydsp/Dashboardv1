@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('users/{id}', function ($id) {
-    
+    return view('');
 });
